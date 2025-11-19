@@ -30,3 +30,7 @@ What this project includes:
     - NC for ON/RESET button.
     - NO for OFF button.
   - You'll have to **switch the colors** of the buttons vs wires to use them for this project if you get the NC green and NO red buttons,
+
+Wiring Diagram
+
+![Wiring Diagram](wiring-diagram.svg)

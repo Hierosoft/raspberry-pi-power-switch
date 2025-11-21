@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81960408"
-     inkscape:cx="402.02338"
-     inkscape:cy="400.19323"
+     inkscape:zoom="1.1590952"
+     inkscape:cx="392.1162"
+     inkscape:cy="326.97918"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -119,6 +119,12 @@
        width="322.11703"
        height="164.01064"
        id="rect25646" />
+    <rect
+       x="95.482315"
+       y="69.150337"
+       width="250.73769"
+       height="129.65672"
+       id="rect2662" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -439,11 +445,11 @@
        style="font-style:normal;font-weight:normal;font-size:22.8868px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23344);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="95.482422"
          y="89.974523"
-         id="tspan1864">AC Adapter
+         id="tspan2892">AC Adapter
 </tspan><tspan
          x="95.482422"
          y="118.58303"
-         id="tspan1866">OUT: 5V DC</tspan></text>
+         id="tspan2894">OUT: 5V DC</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.18496872,0.18496872,0,-56.573445,168.96787)"
@@ -451,25 +457,25 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23710);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="96.238281"
          y="518.52391"
-         id="tspan1870"><tspan
+         id="tspan2898"><tspan
    style="font-weight:bold;-inkscape-font-specification:'sans-serif, Bold'"
-   id="tspan1868">Raspberry Pi</tspan>
+   id="tspan2896">Raspberry Pi</tspan>
 </tspan><tspan
          x="96.238281"
          y="568.52391"
-         id="tspan1872">USB POWER IN
+         id="tspan2900">USB POWER IN
 </tspan><tspan
          x="96.238281"
          y="618.52391"
-         id="tspan1874">PIN: pwr light
+         id="tspan2902">PIN: pwr light
 </tspan><tspan
          x="96.238281"
          y="668.52391"
-         id="tspan1876">PIN: GND
+         id="tspan2904">PIN: GND
 </tspan><tspan
          x="96.238281"
          y="718.52391"
-         id="tspan1878">PIN: soft OFF</tspan></text>
+         id="tspan2906">PIN: soft OFF</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 43.785436,92.976735 c 0.462918,-24.880295 1.475633,-26.3247 6.403457,-29.940951 6.407191,-4.701876 26.678244,-4.47483 29.509527,-4.446176"
@@ -507,21 +513,21 @@
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25484);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="391.87891"
          y="421.14003"
-         id="tspan1882"><tspan
+         id="tspan2910"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1880">NC Momentary
+           id="tspan2908">NC Momentary
 </tspan></tspan><tspan
          x="391.87891"
          y="441.14003"
-         id="tspan1886"><tspan
+         id="tspan2914"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1884">Switch
+           id="tspan2912">Switch
 </tspan></tspan><tspan
          x="391.87891"
          y="461.14003"
-         id="tspan1890"><tspan
+         id="tspan2918"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1888">(ON/RESET)</tspan></tspan></text>
+           id="tspan2916">(ON/RESET)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.829621;stroke-linecap:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect1195"
@@ -537,21 +543,21 @@
        style="font-style:normal;font-weight:normal;font-size:12.2219px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25646);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="391.87891"
          y="417.70243"
-         id="tspan1894"><tspan
+         id="tspan2922"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1892">NO Momentary
+           id="tspan2920">NO Momentary
 </tspan></tspan><tspan
          x="391.87891"
          y="432.97981"
-         id="tspan1898"><tspan
+         id="tspan2926"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1896">Switch
+           id="tspan2924">Switch
 </tspan></tspan><tspan
          x="391.87891"
          y="448.25718"
-         id="tspan1902"><tspan
+         id="tspan2930"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1900">(soft OFF)</tspan></tspan></text>
+           id="tspan2928">(soft OFF)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.45242;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect25686"
@@ -571,9 +577,9 @@
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28696);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="555.39453"
          y="182.45253"
-         id="tspan1906"><tspan
+         id="tspan2934"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1904">330Ω</tspan></tspan></text>
+           id="tspan2932">330Ω</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-41.950584,1.4338021)"
@@ -581,11 +587,11 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect29464);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="671.55273"
          y="346.41152"
-         id="tspan1908">Red
+         id="tspan2936">Red
 </tspan><tspan
          x="671.55273"
          y="366.41152"
-         id="tspan1910">LED</tspan></text>
+         id="tspan2938">LED</tspan></text>
     <g
        id="g2371"
        transform="translate(-36.962569,38.238676)">
@@ -642,21 +648,21 @@
        style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect449);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="472.61133"
          y="611.77828"
-         id="tspan1914"><tspan
+         id="tspan2942"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1912">&lt;https://commons.wikimedia.org/wiki/File:LED_symbol_example1.svg&gt;:
+           id="tspan2940">&lt;https://commons.wikimedia.org/wiki/File:LED_symbol_example1.svg&gt;:
 </tspan></tspan><tspan
          x="472.61133"
          y="623.45963"
-         id="tspan1924"><tspan
+         id="tspan2952"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1916">すじにく</tspan><tspan
+           id="tspan2944">すじにく</tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1918">シチュー</tspan><tspan
+           id="tspan2946">シチュー</tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1920">, </tspan><tspan
+           id="tspan2948">, </tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1922">CC0, via Wikimedia Commons. 13 Oct 2017. 18 Nov 2025.</tspan></tspan></text>
+           id="tspan2950">CC0, via Wikimedia Commons. 13 Oct 2017. 18 Nov 2025.</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,27.708219,-25.129292)"
@@ -664,7 +670,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect608);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="51.929688"
          y="469.75438"
-         id="tspan1926">-+</tspan></text>
+         id="tspan2954">-+</tspan></text>
     <path
        style="fill:none;stroke:#1b54df;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 128.10019,103.17296 c 5.24596,0 3.39561,0.14069 10.19026,0.14069"
@@ -682,9 +688,25 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,22.997047,-27.22216)"
        id="text1133"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1135);fill:#000000;fill-opacity:1;stroke:none"><tspan
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1135);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="306.64648"
          y="343.89501"
-         id="tspan1928">...</tspan></text>
+         id="tspan2956">...</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18496872,0,0,0.18496872,77.701562,19.955707)"
+       id="text2660"
+       style="font-style:normal;font-weight:normal;font-size:22.8868px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2662);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="95.482422"
+         y="89.974523"
+         id="tspan2958">Repurposed
+</tspan><tspan
+         x="95.482422"
+         y="118.58303"
+         id="tspan2960">Ethernet Cable
+</tspan><tspan
+         x="95.482422"
+         y="147.19153"
+         id="tspan2962">(3ft or so)</tspan></text>
   </g>
 </svg>

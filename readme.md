@@ -10,6 +10,7 @@ This is not your silly toggle switch which on & off behave differently:
 The solution:
 - An OFF switch: A service to watch an IO pin for a button press (momentary switch) which will then power off the device using "shutdown 0" (safe immediate shutdown in GNU/Linux).
 - An ON/RESET switch: disrupts power as per Raspberry Pi convention (There is a convention to turn it on but not off...)
+  - The ON/RESET convention is baked into the hardware (If you do a safe shutdown you have to turn the power off and back on again), so this is the best we can do without a 2-path power setup that disrupts the disruptor while the power is on (That would make it a true "ON" button)--Why does this have to be so difficult? We don't know. But this is progress.
 
 Requires:
 - NO momentary switch (for software-based OFF button)

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="wiring-diagram.svg"
+   sodipodi:docname="wiring-diagram-2-cable-io_pwr_separate.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1590952"
-     inkscape:cx="392.1162"
-     inkscape:cy="326.97918"
+     inkscape:zoom="0.8196041"
+     inkscape:cx="382.50175"
+     inkscape:cy="356.26957"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -122,9 +122,33 @@
     <rect
        x="95.482315"
        y="69.150337"
+       width="431.67801"
+       height="106.70854"
+       id="rect2662" />
+    <rect
+       x="306.64651"
+       y="307.49976"
+       width="99.795738"
+       height="58.851318"
+       id="rect1135-3" />
+    <rect
+       x="95.482315"
+       y="69.150337"
        width="250.73769"
        height="129.65672"
-       id="rect2662" />
+       id="rect2662-6" />
+    <rect
+       x="306.64651"
+       y="307.49976"
+       width="99.795738"
+       height="58.851318"
+       id="rect1135-6" />
+    <rect
+       x="95.482315"
+       y="69.150337"
+       width="431.67801"
+       height="106.70854"
+       id="rect2662-1" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -137,7 +161,8 @@
        height="201.45497"
        x="1.4420236"
        y="0.76528013"
-       ry="0.3619096" />
+       ry="0.3619096"
+       sodipodi:insensitive="true" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.9;stroke-linecap:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect1193"
@@ -166,15 +191,15 @@
        x="134.78157"
        y="70.688431" />
     <path
-       style="fill:none;stroke:#00df2d;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 134.64454,66.284388 c 9.68292,0 31.77818,-6.52441 41.2558,5.528144 7.57496,9.632973 24.21174,9.564803 37.55337,31.475388 17.70291,29.07298 14.16695,69.53444 -0.6006,81.83686 -12.33101,10.24024 -36.45834,8.72025 -36.45834,-9.17774"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.19393,35.291439 c 9.68292,0 26.1735,12.070224 35.65112,24.122778 7.57496,9.632973 12.87123,32.374222 12.87123,50.617883"
        id="path25642"
-       sodipodi:nodetypes="csscc" />
-    <path
-       style="fill:none;stroke:#ffa300;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 134.50903,55.436692 c 9.68292,0 38.37637,2.5893 45.97296,10.762899 9.38021,10.092695 -3.01591,46.313949 -3.01591,52.222099"
-       id="path25500"
        sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.36288,18.936543 c 9.68292,0 32.15064,2.605471 40.79215,9.665237 28.12119,22.973894 37.31237,58.06675 49.67181,80.74944 18.49344,33.94014 -16.00138,107.54702 -40.39017,74.61199"
+       id="path25500"
+       sodipodi:nodetypes="cssc" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.833875;stroke-linecap:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect1197"
@@ -189,22 +214,22 @@
        id="path25668"
        sodipodi:nodetypes="csssc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 56.728198,38.58683 c 0,3.62624 -0.646326,5.985527 3.581026,10.400294 4.22671,4.414096 16.721225,4.182131 19.557898,4.182131"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 29.111783,38.144623 c -0.139999,10.620493 0.211581,14.057515 6.189593,15.331898 8.040206,1.713998 26.432646,-18.460643 50.618256,-26.237705 24.185618,-7.777062 48.571888,-2.835928 49.990228,-2.835928"
        id="path23632"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="cscc" />
     <path
-       style="fill:none;stroke:#ff0000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 51.334136,38.595674 c 0,4.883052 -0.668458,8.268105 4.557415,13.241181 5.225875,4.973076 20.244939,3.953623 23.999477,3.953623"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.182765,38.552553 c 0,4.883052 -0.965058,7.260842 2.002646,7.861202 7.988397,1.616034 26.930726,-17.054873 50.325656,-24.622998 23.394923,-7.568124 47.050893,-2.863288 48.928163,-2.863288"
        id="path23634"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="cssc" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.787373;stroke-linecap:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect25640"
        width="30.498474"
        height="35.181705"
-       x="37.339184"
-       y="3.02946"
+       x="20.187813"
+       y="2.9863393"
        ry="0.3619096" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#ffa300;stroke-width:0.899972;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
@@ -440,16 +465,16 @@
        transform="scale(-1,1)" />
     <text
        xml:space="preserve"
-       transform="matrix(0.18496872,0,0,0.18496872,22.207606,13.158971)"
+       transform="matrix(0.18496872,0,0,0.18496872,5.0562345,13.11585)"
        id="text23342"
        style="font-style:normal;font-weight:normal;font-size:22.8868px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23344);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="95.482422"
          y="89.974523"
-         id="tspan2892">AC Adapter
+         id="tspan1545">AC Adapter
 </tspan><tspan
          x="95.482422"
          y="118.58303"
-         id="tspan2894">OUT: 5V DC</tspan></text>
+         id="tspan1547">OUT: 5V DC</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.18496872,0.18496872,0,-56.573445,168.96787)"
@@ -457,35 +482,35 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23710);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="96.238281"
          y="518.52391"
-         id="tspan2898"><tspan
+         id="tspan1551"><tspan
    style="font-weight:bold;-inkscape-font-specification:'sans-serif, Bold'"
-   id="tspan2896">Raspberry Pi</tspan>
+   id="tspan1549">Raspberry Pi</tspan>
 </tspan><tspan
          x="96.238281"
          y="568.52391"
-         id="tspan2900">USB POWER IN
+         id="tspan1553">USB POWER IN
 </tspan><tspan
          x="96.238281"
          y="618.52391"
-         id="tspan2902">PIN: pwr light
+         id="tspan1555">PIN: pwr light
 </tspan><tspan
          x="96.238281"
          y="668.52391"
-         id="tspan2904">PIN: GND
+         id="tspan1557">PIN: GND
 </tspan><tspan
          x="96.238281"
          y="718.52391"
-         id="tspan2906">PIN: soft OFF</tspan></text>
+         id="tspan1559">PIN: soft OFF</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 43.785436,92.976735 c 0.462918,-24.880295 1.475633,-26.3247 6.403457,-29.940951 6.407191,-4.701876 26.678244,-4.47483 29.509527,-4.446176"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 42.045882,91.823029 C 35.547501,78.853681 41.269038,62.10529 44.816805,57.127934 47.066683,53.971457 72.870007,34.420413 92.641382,29.648087 112.41276,24.875762 122.81367,26.860003 136.41613,30.052091"
        id="path24050"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="cssc" />
     <path
-       style="fill:none;stroke:#ff0000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 47.533003,92.531345 c 0,-5.71379 5.613324,-19.510684 11.633451,-23.413142 6.458203,-4.186435 17.039933,-2.459412 20.79447,-2.459412"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.951313,90.913529 c 0,-5.71379 -3.796378,-28.499607 2.223748,-32.402066 3.229102,-2.093217 25.007218,-16.987253 44.559519,-22.923511 19.5523,-5.936258 39.73513,-0.350221 41.61239,-0.350221"
        id="path24052"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="cssc" />
     <path
        style="fill:none;stroke:#995c00;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 81.517274,72.074371 c -3.617269,0 -5.56848,0.425055 -6.499477,1.70317 -0.931,1.27812 -1.549577,21.004234 -1.549577,26.912389"
@@ -498,7 +523,7 @@
        sodipodi:nodetypes="csccsc" />
     <path
        style="fill:none;stroke:#1b54df;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 81.460556,61.241361 c -9.682925,0 -21.10237,3.305029 -22.592312,3.834563 -16.295447,5.791493 -3.379913,14.070971 -3.379913,37.620556"
+       d="m 81.255987,62.342488 c -9.682925,0 -20.897801,2.203902 -22.387743,2.733436 -16.295447,5.791493 -3.379913,14.070971 -3.379913,37.620556"
        id="path25168"
        sodipodi:nodetypes="csc" />
     <text
@@ -513,21 +538,21 @@
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25484);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="391.87891"
          y="421.14003"
-         id="tspan2910"><tspan
+         id="tspan1563"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2908">NC Momentary
+           id="tspan1561">NC Momentary
 </tspan></tspan><tspan
          x="391.87891"
          y="441.14003"
-         id="tspan2914"><tspan
+         id="tspan1567"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2912">Switch
+           id="tspan1565">Switch
 </tspan></tspan><tspan
          x="391.87891"
          y="461.14003"
-         id="tspan2918"><tspan
+         id="tspan1571"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2916">(ON/RESET)</tspan></tspan></text>
+           id="tspan1569">(ON/RESET)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.829621;stroke-linecap:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect1195"
@@ -543,21 +568,21 @@
        style="font-style:normal;font-weight:normal;font-size:12.2219px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25646);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="391.87891"
          y="417.70243"
-         id="tspan2922"><tspan
+         id="tspan1575"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2920">NO Momentary
+           id="tspan1573">NO Momentary
 </tspan></tspan><tspan
          x="391.87891"
          y="432.97981"
-         id="tspan2926"><tspan
+         id="tspan1579"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2924">Switch
+           id="tspan1577">Switch
 </tspan></tspan><tspan
          x="391.87891"
          y="448.25718"
-         id="tspan2930"><tspan
+         id="tspan1583"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2928">(soft OFF)</tspan></tspan></text>
+           id="tspan1581">(soft OFF)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.45242;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect25686"
@@ -577,9 +602,9 @@
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28696);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="555.39453"
          y="182.45253"
-         id="tspan2934"><tspan
+         id="tspan1587"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2932">330Ω</tspan></tspan></text>
+           id="tspan1585">330Ω</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-41.950584,1.4338021)"
@@ -587,11 +612,11 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect29464);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="671.55273"
          y="346.41152"
-         id="tspan2936">Red
+         id="tspan1589">Red
 </tspan><tspan
          x="671.55273"
          y="366.41152"
-         id="tspan2938">LED</tspan></text>
+         id="tspan1591">LED</tspan></text>
     <g
        id="g2371"
        transform="translate(-36.962569,38.238676)">
@@ -637,10 +662,10 @@
        id="path30532"
        sodipodi:nodetypes="cssc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 136.52914,52.696084 c 3.634,-0.148874 13.20249,-6.667186 13.36694,0.455286 0.16446,7.12247 -8.74527,5.092181 -14.18907,5.092181"
+       style="fill:none;stroke:#000100;stroke-width:2.09728;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.81733,24.357483 c 1.817,-0.07444 42.4084,12.56665 62.76418,40.940492 20.35578,28.373843 27.2579,75.017135 20.55816,76.041675 -3.52125,0.53848 -0.21699,-40.57015 -19.77464,-67.886087 C 178.91353,44.88918 138.50225,29.873297 135.78035,29.873297"
        id="path24054"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csssc" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-7.2939786,35.23262)"
@@ -648,21 +673,21 @@
        style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect449);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="472.61133"
          y="611.77828"
-         id="tspan2942"><tspan
+         id="tspan1595"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2940">&lt;https://commons.wikimedia.org/wiki/File:LED_symbol_example1.svg&gt;:
+           id="tspan1593">&lt;https://commons.wikimedia.org/wiki/File:LED_symbol_example1.svg&gt;:
 </tspan></tspan><tspan
          x="472.61133"
          y="623.45963"
-         id="tspan2952"><tspan
+         id="tspan1605"><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2944">すじにく</tspan><tspan
+           id="tspan1597">すじにく</tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2946">シチュー</tspan><tspan
+           id="tspan1599">シチュー</tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2948">, </tspan><tspan
+           id="tspan1601">, </tspan><tspan
            style="-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan2950">CC0, via Wikimedia Commons. 13 Oct 2017. 18 Nov 2025.</tspan></tspan></text>
+           id="tspan1603">CC0, via Wikimedia Commons. 13 Oct 2017. 18 Nov 2025.</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,27.708219,-25.129292)"
@@ -670,7 +695,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect608);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="51.929688"
          y="469.75438"
-         id="tspan2954">-+</tspan></text>
+         id="tspan1607">-+</tspan></text>
     <path
        style="fill:none;stroke:#1b54df;stroke-width:2.325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 128.10019,103.17296 c 5.24596,0 3.39561,0.14069 10.19026,0.14069"
@@ -679,10 +704,10 @@
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0.775542;stroke-linecap:round;stroke-miterlimit:1"
        id="rect472"
-       width="8.0552626"
-       height="38.255745"
-       x="116.08616"
-       y="-3.559413"
+       width="8.989049"
+       height="28.040844"
+       x="115.15237"
+       y="6.6554861"
        transform="matrix(0.93507098,0.35446052,-0.18661983,0.98243221,0,0)" />
     <text
        xml:space="preserve"
@@ -691,22 +716,23 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1135);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="306.64648"
          y="343.89501"
-         id="tspan2956">...</tspan></text>
+         id="tspan1609">...</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.18496872,0,0,0.18496872,77.701562,19.955707)"
+       transform="matrix(0.18496872,0,0,0.18496872,62.786064,31.064601)"
        id="text2660"
        style="font-style:normal;font-weight:normal;font-size:22.8868px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2662);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="95.482422"
          y="89.974523"
-         id="tspan2958">Repurposed
-</tspan><tspan
+         id="tspan1611">Repurposed Ethernet  ~3ft or ~1m</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18496872,0,0,0.18496872,90.761644,-2.9728795)"
+       id="text2660-4"
+       style="font-style:normal;font-weight:normal;font-size:22.8868px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2662-1);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="95.482422"
-         y="118.58303"
-         id="tspan2960">Ethernet Cable
-</tspan><tspan
-         x="95.482422"
-         y="147.19153"
-         id="tspan2962">(3ft or so)</tspan></text>
+         y="89.974523"
+         id="tspan1613">18 AWG wire
+</tspan></text>
   </g>
 </svg>

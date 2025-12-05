@@ -1,0 +1,14 @@
+[Unit]
+Description=Shutdown Button Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/user/git/raspberry-pi-power-switch/shutdown_button.py
+WorkingDirectory=/home/user/git/raspberry-pi-power-switch
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

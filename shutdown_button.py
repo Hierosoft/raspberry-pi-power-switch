@@ -10,6 +10,10 @@ power_sw_pin = 5  # Shutdown button 29=GPIO 5
 power_led_pin = None  # 33=GPIO 13 (PWM1)  # Power LED
 
 GPIO.setmode(GPIO.BCM)
+
+GPIO.setwarnings(False)          # suppress the "already in use" warning
+GPIO.cleanup(power_sw_pin)       # force-free the pin if it was left exported
+
 GPIO.setup(power_sw_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)  # Shutdown button
 # Commented power_led_pin since we should use 3v3 pin instead
 #   (always on when Pi is on)
@@ -26,8 +30,14 @@ def shutdown(channel):
     time.sleep(1)  # Debounce
     os.system("shutdown -h now")
 
-GPIO.add_event_detect(power_sw_pin, GPIO.FALLING, callback=shutdown,
-                      bouncetime=200)
+try:
+    GPIO.add_event_detect(power_sw_pin, GPIO.FALLING, callback=shutdown,
+                          bouncetime=200)
+except:
+    GPIO.cleanup(power_sw_pin)
+    GPIO.setup(power_sw_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+    GPIO.add_event_detect(power_sw_pin, GPIO.FALLING, callback=shutdown,
+                          bouncetime=200)
 
 try:
     while True:

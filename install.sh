@@ -19,6 +19,8 @@ sed -i 's|include-system-site-packages = false|include-system-site-packages = tr
 # sudo rsync -rtv $INSTALL_SRC/ / || exit $?
 cp $INSTALL_SRC/etc/systemd/system/shutdown-button.service /tmp/shutdown-button.service.tmp || exit $?
 sed -i "s|/home/user|$HOME|g" /tmp/shutdown-button.service.tmp || exit $?
+# sed -i "s|User=user|User=root|g" /tmp/shutdown-button.service.tmp || exit $?
+
 sudo cp /tmp/shutdown-button.service.tmp /etc/systemd/system/shutdown-button.service || exit $?
 
 sudo systemctl daemon-reload

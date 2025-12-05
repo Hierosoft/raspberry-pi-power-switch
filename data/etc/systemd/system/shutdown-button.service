@@ -8,7 +8,7 @@ WorkingDirectory=/home/user/git/raspberry-pi-power-switch
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=pi
+User=root
 
 [Install]
 WantedBy=multi-user.target

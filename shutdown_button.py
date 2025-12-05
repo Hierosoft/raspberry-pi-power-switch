@@ -14,6 +14,8 @@ power_led_pin = None  # 33=GPIO 13 (PWM1)  # Power LED
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)  # suppress the "already in use" warning
 
+# os.system("echo 5 > /sys/class/gpio/unexport 2>/dev/null || true")
+
 # Force-unexport the pin if something else left it open
 try:
     GPIO.cleanup(power_sw_pin)          # clears GPIO 5 if it was stuck

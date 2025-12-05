@@ -6,8 +6,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Pin definitions
-power_sw_pin = 5  # Shutdown button 29=GPIO 5
-power_led_pin = None  # 33=GPIO 13 (PWM1)  # Power LED
+power_sw_pin = 5  # Shutdown button: GPIO 5 (physical pin 29)
+power_led_pin = 13  # Power LED: GPIO 13 (PWM1) (physical pin 33)
 # power_led_pin = None since we should use 3v3 pin instead
 #   (always on when Pi is on)
 

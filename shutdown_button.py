@@ -6,8 +6,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Pin definitions
-power_sw_pin = 29  # Shutdown button 29=GPIO 5
-power_led_pin = None  # 33  # Power LED
+power_sw_pin = 5  # Shutdown button 29=GPIO 5
+power_led_pin = None  # 33=GPIO 13 (PWM1)  # Power LED
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(power_sw_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)  # Shutdown button

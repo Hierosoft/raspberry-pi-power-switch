@@ -8,15 +8,19 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 # Pin definitions
 power_sw_pin = 5  # Shutdown button 29=GPIO 5
 power_led_pin = None  # 33=GPIO 13 (PWM1)  # Power LED
+# power_led_pin = None since we should use 3v3 pin instead
+#   (always on when Pi is on)
 
 GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)  # suppress the "already in use" warning
 
-GPIO.setwarnings(False)          # suppress the "already in use" warning
-GPIO.cleanup(power_sw_pin)       # force-free the pin if it was left exported
+# Force-unexport the pin if something else left it open
+try:
+    GPIO.cleanup(power_sw_pin)          # clears GPIO 5 if it was stuck
+except:
+    pass
 
-GPIO.setup(power_sw_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)  # Shutdown button
-# Commented power_led_pin since we should use 3v3 pin instead
-#   (always on when Pi is on)
+GPIO.setup(power_sw_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 if power_led_pin:
     GPIO.setup(power_led_pin, GPIO.OUT)  # Power LED
     GPIO.output(power_led_pin, GPIO.HIGH)  # Turn LED on

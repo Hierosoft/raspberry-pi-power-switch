@@ -42,6 +42,7 @@ def main():
             time.sleep(1)
             if USER_FLAG_PATH is None and os.path.isdir(USER_TMP_DIR):
                 USER_FLAG_PATH = os.path.join(USER_TMP_DIR, SHUTDOWN_FLAG_NAME)
+                SHUTDOWN_FLAG_PATH = USER_FLAG_PATH
             if os.path.isfile(SHUTDOWN_FLAG_PATH):
                 time.sleep(.2)  # wait until it finished being written
                 logging.info("rm {}".format(repr(SHUTDOWN_FLAG_PATH)))
